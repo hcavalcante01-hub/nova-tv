@@ -1,0 +1,14 @@
+# Credenciais e configuracoes privadas
+segredos.properties
+**/segredos.properties
+.env
+.env.*
+!.env.example
+local.properties
+*.keystore
+*.jks
+
+# Cache e arquivos locais
+cache/
+.DS_Store
+Thumbs.db
